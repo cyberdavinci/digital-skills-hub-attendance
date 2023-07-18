@@ -31,7 +31,7 @@ const login = () => {
   };
 
   return (
-    <div className="inner-main   h-screen w-full overflow-hidden flex flex-col justify-center  items-center bg-[#1A1A1A]   gap-10">
+    <div className="inner-main   h-screen w-full overflow-hidden flex flex-col justify-center  items-center    gap-10">
       <div>
         <Image
           src={require("../../../public/images/logo.png")}
