@@ -5,6 +5,7 @@ const Login = ({
   password,
   handleUserNameChange,
   handlePasswordFieldChange,
+  handleLogin,
 }) => {
   return (
     <div className="flex flex-col  gap-10 ">
@@ -33,6 +34,7 @@ const Login = ({
         <input
           type="button"
           value="Login"
+          onClick={handleLogin}
           className="bg-black border-[4px] border-slate-200 p-3 text-xl rounded-xl text-slate-200 outline-none w-[300px] cursor-pointer"
         />
       </form>
