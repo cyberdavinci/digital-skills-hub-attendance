@@ -7,7 +7,7 @@ const Dashboard = () => {
   return (
     <div className=" inner-dashboard overflow-y-auto text-slate-100 ">
       <DashboardSidebar />
-      <DashboardContent />
+      {/* <DashboardContent /> */}
     </div>
   );
 };
