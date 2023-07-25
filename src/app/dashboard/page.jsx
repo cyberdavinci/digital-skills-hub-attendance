@@ -2,7 +2,7 @@ import React from "react";
 import Dashboard from "@/components/Dashboard";
 const page = () => {
   return (
-    <div className=" px-8 py-6">
+    <div className="">
       <h1>Main Dashboard</h1>
     </div>
   );
