@@ -93,7 +93,7 @@ ul .cls-btn {
 <button class="button-64" role="button"><span class="text">Button 64</span></button> */
 
 /* CSS */
-ul .cls-btn {
+.cls-btn {
   align-items: center;
   background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
   border: 0;
@@ -119,12 +119,12 @@ ul .cls-btn {
   text-align: center;
 }
 
-ul .cls-btn:active,
-ul .cls-btn:hover {
+.cls-btn:active,
+.cls-btn:hover {
   outline: 0;
 }
 
-ul .cls-btn span {
+.cls-btn span {
   background-color: rgb(5, 6, 45);
   padding: 16px 24px;
   border-radius: 6px;
@@ -133,7 +133,7 @@ ul .cls-btn span {
   transition: 300ms;
 }
 
-ul .cls-btn:hover span {
+.cls-btn:hover span {
   background: none;
 }
 
